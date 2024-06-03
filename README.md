@@ -1,17 +1,17 @@
 ## We will evaluate:
 
-* Best practices: Validations and handle exceptions, Intuitive names, and OOP.
-* Solid Principles: Separation of concerns, Abstraction and scalability, Inferface usage, Dependency 
+* __Best practices:__ Validations and handle exceptions, Intuitive names, and OOP.
+* __Solid Principles:__ Separation of concerns, Abstraction and scalability, Inferface usage, Dependency 
 inversion.
-* Design Patterns: One or more design patterns implemented to solve the main problem, select the proper 
+* __Design Patterns:__ One or more design patterns implemented to solve the main problem, select the proper 
 channels and send notifications.
-* Architecture: Well architecture design, have a well defined folder structure and separation of concerns,
+* __Architecture:__ Well architecture design, have a well defined folder structure and separation of concerns,
 scalable and prepared for minimum changes on new requirements in the future.
 (Routes/Controllers/Services/Repositories, DTOs / Interfaces / etc.).
-* Unit Testing: Tests for each service and function, Multiple test scenarios per function.
-* Database: Migrations and Seeders, Foreign keys usage (In case of RDBMS), Indexing, Proper data types 
+* __Unit Testing:__ Tests for each service and function, Multiple test scenarios per function.
+* __Database:__ Migrations and Seeders, Foreign keys usage (In case of RDBMS), Indexing, Proper data types 
 and length and Load all catalogs in the database (Is a plus).
-* Challenge: Requirements accomplish, Performance and search methods, Fault tolerant on sending 
+* __Challenge:__ Requirements accomplish, Performance and search methods, Fault tolerant on sending 
 notifications and Scalable to add more notification channels.
 
 # Notification Test
@@ -49,6 +49,6 @@ the following information:
 As user interface you need to display 2 main elements.
 
 1. Submission form. A simple form to send the message, which will have 2 fields: 
-  * Category. List of available categories.
-  * Message. Text area, only validate that the message is not empty.
+    * Category. List of available categories.
+    * Message. Text area, only validate that the message is not empty.
 2. Log history. A list of all records in the log, sorted from newest to oldest
